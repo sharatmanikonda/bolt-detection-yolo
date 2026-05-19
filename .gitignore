@@ -1,0 +1,71 @@
+# ====================================
+# Python
+# ====================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+.pytest_cache/
+*.pyc
+
+# ====================================
+# Virtual Environments
+# ====================================
+venv/
+.venv/
+env/
+envs/
+.conda/
+
+# ====================================
+# YOLO / Ultralytics (Model Weights)
+# ====================================
+*.pt
+*.pth
+*.weights
+*.onnx
+*.engine
+runs/
+runs/
+bolt_detection_project/
+
+# ====================================
+# Datasets (too large for Git - track only config files)
+# ====================================
+dataset/images/
+dataset/labels/
+datasets/
+data/
+
+# ====================================
+# IDE / Editor
+# ====================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ====================================
+# Test images & screenshots
+# ====================================
+new/
+bolt_test.jpg
+bolt_test1.png
+
+# ====================================
+# Jupyter Notebook checkpoints
+# ====================================
+.ipynb_checkpoints/
+
+# ====================================
+# Environment / Secrets
+# ====================================
+.env
+*.token
